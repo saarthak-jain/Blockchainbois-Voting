@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'cache', 'clean' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly ls normalized .
+5 silly gentlyRm /home/saarthak/.npm/_cacache is being purged
+6 verbose gentlyRm don't care about contents; nuking /home/saarthak/.npm/_cacache
+7 silly gentlyRm /home/saarthak/.npm/_locks is being purged
+8 verbose gentlyRm don't care about contents; nuking /home/saarthak/.npm/_locks
+9 silly gentlyRm /home/saarthak/.npm/_logs is being purged
+10 verbose gentlyRm don't care about contents; nuking /home/saarthak/.npm/_logs
+11 silly gentlyRm /home/saarthak/.npm/anonymous-cli-metrics.json is being purged
+12 verbose gentlyRm don't care about contents; nuking /home/saarthak/.npm/anonymous-cli-metrics.json
+13 silly vacuum-fs purging /home/saarthak/.npm/_cacache
+14 silly vacuum-fs purging /home/saarthak/.npm/_locks
+15 silly vacuum-fs purging /home/saarthak/.npm/_logs
+16 silly vacuum-fs purging /home/saarthak/.npm/anonymous-cli-metrics.json
+17 verbose stack Error: EACCES: permission denied, rmdir '/home/saarthak/.npm/_logs'
+18 verbose cwd /home/saarthak/Documents/Major Project/Javascript Code
+19 error Linux 4.18.0-18-generic
+20 error argv "/usr/bin/node" "/usr/bin/npm" "cache" "clean"
+21 error node v8.10.0
+22 error npm  v3.5.2
+23 error path /home/saarthak/.npm/_logs
+24 error code EACCES
+25 error errno -13
+26 error syscall rmdir
+27 error Error: EACCES: permission denied, rmdir '/home/saarthak/.npm/_logs'
+27 error  { Error: EACCES: permission denied, rmdir '/home/saarthak/.npm/_logs'
+27 error   errno: -13,
+27 error   code: 'EACCES',
+27 error   syscall: 'rmdir',
+27 error   path: '/home/saarthak/.npm/_logs' }
+28 error Please try running this command again as root/Administrator.
+29 verbose exit [ -13, true ]
